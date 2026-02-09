@@ -1,34 +1,10 @@
 # VHMA 3003 — SW Naming Convention (3rd issue, 08/2023)
 
+---
+
 # Content
 
 ## BSW — C language
-
----
-
-### Files
-
-Full file name:
-
-`<modulename><_optional>`
-
-Applies to both `.h` and `.c` (extension excluded).
-
-#### Description of `<modulename>`
-
-Identifies the module. All files in same module share the same `<modulename>`. It is composed by words/keywords in **PascalCasing**.
-
-If a word appears in Table 5, its keyword must be used.
-
-#### Description of `<_optional>`
-
-Optional role descriptor. If used:
-
-- single word/keyword
-- first letter capital, remainder lower case
-- keyword substitution rules as above
-
----
 
 ### Variables
 
@@ -51,8 +27,8 @@ Meaning‑specific name; duplicates allowed if other parts differ.
 
 Casing depends on storage class (Table 6):
 
-- **PascalCasing** → static variables
-- **camelCasing** → non‑static variables
+- PascalCasing → static variables
+- camelCasing → non‑static variables
 
 Keywords substitution follows Table 2 & Table 5.
 
